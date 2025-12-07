@@ -71,6 +71,6 @@ try:
     joblib.dump(best_model, 'anemia_model_robustness_test.pkl')
 
 except FileNotFoundError:
-    print(f"\n❌ ERROR: File not found. Pastikan 'anemia.csv' ada di direktori '../Data'.")
+    print(f"\nFile not found. Pastikan 'anemia.csv' ada di direktori '../Data'.")
 except Exception as e:
-    print(f"\n❌ AN ERROR OCCURRED: {e}")
+    print(f"\nERROR : {e}")
