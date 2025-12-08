@@ -1,0 +1,4 @@
+KNN MODEL RESULTS
+Best Parameters (from CV): {'n_neighbors': 15, 'weights': 'uniform'}
+Final Test Set Accuracy: 0.9346
+Final Test Set F1 Score: 0.9333
